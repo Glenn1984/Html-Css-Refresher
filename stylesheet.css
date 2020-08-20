@@ -1,0 +1,104 @@
+.container {
+    margin: 0 auto;
+    border-radius: 0.625em;
+    border: red 1px solid;
+    padding: 0.625em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card1 {
+    margin: 10px;
+    border-radius: 5px;
+    border: mediumblue 1px solid;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+    flex: 1 2 auto;
+    text-align: left;
+    background-color: white;
+
+}
+
+.card2 {
+    margin: 10px;
+    border-radius: 5px;
+    border: mediumturquoise 1px solid;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+    flex: 1 2 auto;
+    text-align: left;
+    background-color: white;
+}
+
+.who {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+    float: right;
+}
+
+.relation {
+    margin: 0 auto;
+    font-size: 18px;
+    color: grey;
+}
+
+p {
+    margin: 30px auto 15px 0px;
+    font-size: 18px;
+}
+
+button.approve {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 10px 50px;
+    border: green 1px solid;
+    border-radius: 0.2em;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: green;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+button.approve:hover {
+    background-color: #CECECE;
+}
+    
+
+button.decline {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 10px 50px;
+    border: red 1px solid;
+    border-radius: 0.2em;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: red;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+button.decline:hover {
+    background-color: #CECECE;
+}
+
+.buttons {
+    font-size: 0px;
+    display: flex;
+}
